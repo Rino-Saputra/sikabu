@@ -1,0 +1,14 @@
+.btn-sub{
+    background-color: #F54C53!important;
+    width: 100%;
+}
+
+.order{
+    color: white;
+    padding: 10px 1em;
+    border-radius: 20px;
+    background-color: #f96900;
+    border-style: none;
+    font-weight: 850;
+    box-shadow: 0 5px 10px 10px rgba(245, 172, 62, 0.233);
+}

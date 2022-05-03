@@ -1,0 +1,21 @@
+.container-crsl {
+    width: 90%;
+    height: 300px;
+    margin: 5% 0;
+}
+
+.slick-slide {
+    box-sizing: border-box;
+}
+
+.slick-slide img {
+    height: 290px;
+    width: 100%;
+    border: 10px solid transparent;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.gallery-cnt{
+    background-color: #008ee0;
+}

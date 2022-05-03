@@ -1,0 +1,11 @@
+.desc{
+    /* width: 50%; */
+    margin: 0 auto;
+}
+
+@media(max-width:576px){
+    .desc{
+        width: 100%;
+        text-align: center;
+    }
+}

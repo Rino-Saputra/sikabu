@@ -1,0 +1,13 @@
+.section-desc{
+    opacity: 0.5;
+    font-size: 0.85rem;
+}    
+.section-title{
+    font-size: 4rem;
+}
+
+@media (max-width: 576px){
+    .section-desc{
+        text-align: justify;
+    }    
+}

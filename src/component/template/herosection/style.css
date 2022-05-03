@@ -1,0 +1,15 @@
+.jumbo{
+    background-image: url('../../../assets/images/home/jumbotron/jumbotron.jpg');
+    background-size: cover;
+    background-position: left;
+    height: 40vmax;
+}
+.jumbo-text{
+    margin-top: 80px;
+}
+
+@media (max-width:576px){
+    .jumbo{
+        height: 60vmax;
+    }
+}
