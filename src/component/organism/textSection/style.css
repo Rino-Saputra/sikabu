@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+
 .section-desc{
     opacity: 0.5;
     font-size: 0.85rem;
 }    
 .section-title{
     font-size: 4rem;
+    font-family: 'Sora';
+    color: rgb(49, 48, 48);
 }
 
 @media (max-width: 576px){
     .section-desc{
         text-align: justify;
     }    
+    .section-title{
+        font-size: 3.1rem;
+    }
 }

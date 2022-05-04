@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import AboutDesc from '../../molecules/aboutDesc'
 import FooterLink from '../../molecules/footerLink'
-import FooterContact from '../../molecules/footerContact'
+import FooterContactsList from '../footerContacts'
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
             <FooterLink />
         </Col>
         <Col md={4}>
-            <FooterContact />
+            <FooterContactsList />
         </Col>
         <hr className='my-5'/>
     </Row>

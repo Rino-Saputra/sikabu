@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
 .header-logo{
     width: 60px;
+}
+
+.title-brand{
+    font-family: 'Libre Bodoni';
+}
+
+.login{
+    padding: 5px 1.5em;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #fff0e4;
+    color: #f96900;
+    font-weight: 850;
+    transition: 0.6s ease;
+}
+
+.b1,.b2,.b3,.b4{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.a1:hover>.b1,.a2:hover>.b2,.a3:hover>.b3,.a4:hover>.b4{
+    border: 1px solid #f96900;
+}
+
+.login:hover{
+    background-color: #f96900;
+    color: #fff0e4;
 }

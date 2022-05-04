@@ -11,7 +11,7 @@ export default function Facility() {
             desc="try our facility and feel comfortable with your family"
         />
 
-        <Row className="pt-5 mt-5 d-flex justify-content-justify-content-evenly">
+        <Row className="pt-5 mt-5 d-flex">
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={landscape}

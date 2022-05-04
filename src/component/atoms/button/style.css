@@ -11,4 +11,10 @@
     border-style: none;
     font-weight: 850;
     box-shadow: 0 5px 10px 10px rgba(245, 172, 62, 0.233);
+    transition: 0.6s ease;
+}
+
+.order:hover{
+    background-color: #fd9042;
+    box-shadow: 0 5px 10px 10px rgba(245, 172, 62, 0.233);
 }

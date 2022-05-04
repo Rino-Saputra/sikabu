@@ -20,7 +20,7 @@ export default function Carousel() {
         <Intro 
           head='Our Gallery'
           desc=''
-          // color='text-light'
+          color='text-light'
         />
         <div className='container-crsl'>
           <Slider {...settings}>

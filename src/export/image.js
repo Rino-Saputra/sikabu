@@ -25,8 +25,8 @@ import carousel11 from '../assets/images/home/carousel/carousel11.jpg';
 
 import logo from '../assets/images/home/jumbotron/logo.png';
 import jumbotron from '../assets/images/home/jumbotron/jumbotron.jpg';
-import hero1 from '../assets/images/home/header/hero1.png';
-import elipse from '../assets/images/home/header/elipse.png';
+import hero1 from '../assets/images/home/header/hero1.svg';
+// import elipse from '../assets/images/home/header/elipse.png';
 
 export { pool, landscape, slide,canebo,cafe,homestay,
          event,facilities,people,award,
@@ -34,4 +34,4 @@ export { pool, landscape, slide,canebo,cafe,homestay,
          carousel1,carousel2,carousel3,carousel4,carousel5,carousel6,carousel7,carousel8,carousel9,
          carousel10,carousel11,
 
-        logo, jumbotron, hero1, elipse };
+        logo, jumbotron, hero1, };
