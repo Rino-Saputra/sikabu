@@ -11,9 +11,9 @@
 }
 
 @media (max-width: 576px){
-    .section-desc{
-        text-align: justify;
-    }    
+    /* .section-desc{ */
+        /* text-align: justify; */
+    /* }     */
     .section-title{
         font-size: 3.1rem;
     }
