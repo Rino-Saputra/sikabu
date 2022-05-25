@@ -10,12 +10,12 @@ export default function Restaurant() {
         <div className='text-center'> 
           <button className={`food ${ toggleButton ? 'active-btn' : 'deactive-btn' } `}
               onClick={()=>setToggleButton(!toggleButton)}>
-              Food
+              Makanan
           </button>
 
           <button className={`beverage ${ toggleButton ? 'deactive-btn' : 'active-btn' }`}
               onClick={()=>setToggleButton(!toggleButton)}>
-              Beverage
+              Minuman
           </button>
         </div>
 

@@ -12,7 +12,7 @@ export default function FoodBeverage(props) {
         <Carousel variant="dark" indicators={false} >
           <Carousel.Item>
             <FoodBeverageCard 
-              title='Food Menu'
+              title='Menu Makanan'
               image={foodImg}
             />
           </Carousel.Item>
@@ -26,7 +26,7 @@ export default function FoodBeverage(props) {
           <Carousel variant="dark" indicators={false} >
           <Carousel.Item>
             <FoodBeverageCard 
-              title='Beveage Menu'
+              title='Menu Minuman'
               image={beverageImg}
             />
           </Carousel.Item>

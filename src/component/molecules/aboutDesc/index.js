@@ -5,7 +5,7 @@ import TextFooterDesc from '../../atoms/textFooterDesc'
 export default function AboutDesc() {
   return (
     <div>
-        <TextFooterHead text='ABOUT PEMANDIAN SIKABU' />
+        <TextFooterHead text='TENTANG PEMANDIAN SIKABU' />
         <TextFooterDesc />
     </div>
   )

@@ -25,21 +25,21 @@ export default function Header() {
 
             <Link to='/facilities' style={{ textDecoration: 'none' }}>
               <Nav.Link className="a3 mx-2" href="#route-1">
-                Facilities 
+                Fasilitas 
                 <div className="b3"></div>
               </Nav.Link>
             </Link>
 
             <Link to='/pricing' style={{ textDecoration: 'none' }}>
               <Nav.Link className="a3 mx-2" href="##route-2">
-                Pricing 
+                Harga 
                 <div className="b3"></div>
               </Nav.Link>
             </Link>
 
             <Link to='/contact' style={{ textDecoration: 'none' }}>
               <Nav.Link className="a4 mx-2" href="##route-3">
-                Contact 
+                Kontak 
                 <div className="b4"></div>
               </Nav.Link>
             </Link>

@@ -7,51 +7,51 @@ export default function Facility() {
   return (
     <Container className='d-flex align-items-md-center flex-column' >
         <Intro 
-            head="Facility"
-            desc="try our facility and feel comfortable with your family"
+            head="Fasilitas"
+            desc="Coba fasilitas kita dan rasakan kenyamanan dengan keluarga anda"
         />
 
         <Row className="pt-5 mt-5 d-flex">
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={landscape}
-                    title='Landscape'
-                    desc='Feel nature view from sikabu with green hill and ricefield'
+                    title='Pemandagan'
+                    desc='Nikmati pemandangan daripemadian sikabu dengan bukit hijau dan persawahan'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={slide}
-                    title='Slides'
-                    desc='There two slide for adult and children with different place'
+                    title='Seluncuran'
+                    desc='Ada dua seluncuran satu untuk dewasa dan lainnya untuk anak-anak'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={pool}
-                    title='Pool'
-                    desc='Swimming with cool water direct from mountain water source'
+                    title='Kolam'
+                    desc='Berenang dengan air dingin langusng dari air pengunungan'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={canebo}
-                    title='Canebo'
-                    desc='Feel enjoy at canebo when you take resta after swimming'
+                    title='Kanebo'
+                    desc='Nikmati kanebo ketika istirahat setelah berenang'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={cafe}
                     title='Cafe'
-                    desc='Order and enjoy service and menu from our cafe'
+                    desc='Pesan dan nikmati layanan dan menu dari cafe kami'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={homestay}
                     title='Homestay'
-                    desc='Dont fear when you dont get hotel room in the city we also provide homestay'
+                    desc='Jangan takut ketika hotel di kota sudah penuh, kamijuga menyediakan homestay'
                 />
             </Col>
         <hr className='mt-5' />

@@ -3,8 +3,8 @@ import React from 'react'
 export default function TextFooterDesc() {
   return (
     <p className='fs-6 text-secondary'>
-      Pemandian sikabu is one of top destination in west sumatera province exactly in agam. established since 2017
-      based on natural source mountain.
+      Pemandian sikabu merupakan salah satu destinasi unggulan dan paling banyak dituu di provinsi sumatera barat tepatnya di agam. berdiri sejak 2017
+      dekat dengan sumber alam pegunungan.
     </p>
   )
 }

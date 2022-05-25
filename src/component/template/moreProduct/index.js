@@ -18,7 +18,7 @@ export default function Carousel() {
     <div className='mt-5 '>
       <div className='gallery-cnt py-4 d-flex flex-column align-items-center'>
         <Intro 
-          head='Our Gallery'
+          head='Galeri'
           desc=''
           color='text-light'
         />

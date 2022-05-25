@@ -25,3 +25,10 @@
     color: #fa2b07; */
     box-shadow: 0 0 4px  hsla(25, 100%, 49%, 0.795) inset;
 }
+
+@media(max-width:380px){
+    .beverage,.food{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

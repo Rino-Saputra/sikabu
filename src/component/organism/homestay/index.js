@@ -5,9 +5,9 @@ import RoomFacilities from '../../molecules/roomFacilities'
 export default function Homestay( { text } ) {
   return (
     <Row>
-        <RoomFacilities title='Water Heater' desc='suitable when take a bath when you feel cool around'/>
-        <RoomFacilities title='Amenities ' desc='We provide tea and coffee also'/>
-        <RoomFacilities title='Free Ticket' desc='You are free in charge when want to swimming in pool'/>
+        <RoomFacilities title='Water Heater' desc='cocok ketika mandi di daerah dingin'/>
+        <RoomFacilities title='Amenities ' desc='Kita juga menyediakan teh,kopi dan lain-lain'/>
+        <RoomFacilities title='Free Ticket' desc='Anda gratis berenang di pemandian sikabu'/>
     </Row>
   )
 }

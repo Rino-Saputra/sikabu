@@ -18,10 +18,10 @@ export default function ContactForm() {
                 className="form-control" 
                 style={{borderRadius: 28, padding: '10px 15px'}} 
                 rows="8"
-                placeholder='write use something'>
+                placeholder='Pesan anda'>
             </textarea>
         </div>
-        <ButtonText type='submit' text='Send' /> 
+        <ButtonText type='submit' text='Kirim' /> 
     </form>
   )
 }

@@ -8,15 +8,15 @@ export default function Pricing() {
   return (
     <Container>
         <Intro 
-            head='Ticket Price'
-            desc='See our ticketprice before you go to pemandian sikabu'
+            head='Harga Tiket'
+            desc='Cek harga sebelum memesan tiket'
         />
         <Row className='d-flex justify-content-center mb-5'>
           <Col md={4} className='d-flex justify-content-center'>
-            <CardPrice text='+3 Years Old' price='15.000' />
+            <CardPrice text='+3 Tahun' price='15.000' />
           </Col>
           <Col md={4} className='d-flex justify-content-center'>
-            <CardPrice text='Group' price='13.000'/>
+            <CardPrice text='Grup' price='13.000'/>
           </Col>
         </Row>
         <br />

@@ -9,21 +9,21 @@ export default function Data() {
     <Container>
         <Intro 
             head='Fact'
-            desc='See our fact'
+            desc=''
         />
         <Row className='mt-5'>
             <Col md={3}>
                 <CardData 
                     image={people}
                     count={+13000}
-                    desc='Guest/Month'
+                    desc='Kunjungan/Bulan'
                 />
             </Col>
             <Col md={3}>
                 <CardData 
                     image={award}
                     count={2}
-                    desc='Award'
+                    desc='Penghargaan'
                 />
             </Col>
             <Col md={3}>
@@ -37,7 +37,7 @@ export default function Data() {
                 <CardData 
                     image={facilities}
                     count={10}
-                    desc='Free facilities'
+                    desc='Fasilitas Gratis'
                 />
             </Col>
         </Row>

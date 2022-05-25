@@ -10,8 +10,8 @@ export default function Subcribe() {
   return (
     <div className='text-center py-4' style={{ background: '#0098EF', marginTop: '-50px'}}>
         <Intro 
-          head='News'
-          desc='Dont miss our event and discount'
+          head='Berita'
+          desc='Jangan ketinggalan event dan diskon dari kita'
           color='text-light'
         />
         <Row className='py-4 px-5 d-flex justify-content-center align-items-center row'>
@@ -19,7 +19,7 @@ export default function Subcribe() {
             <InputText placeholder='email'/>
           </Col>
           <Col md={3} className='my-2'>
-            <ButtonText styles='subcribe' text='Order Now' />
+            <ButtonText styles='subcribe' text='pesan' />
           </Col>
         </Row>
     </div>

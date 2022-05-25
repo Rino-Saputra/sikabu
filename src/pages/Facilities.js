@@ -12,7 +12,7 @@ export default function Facilities() {
       />
       <hr />
       <Layout 
-        title='Restaurant'
+        title='Restoran'
         image={cafe}
       />
     </Container>
