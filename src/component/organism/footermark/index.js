@@ -8,14 +8,16 @@ export default function Copyright() {
     <Row className='d-flex justify-content-between copyright'>
         <Col md={4}>
             <p className='footer-copy'>&copy;2022 Tabek Mandi Sikabu All Rights Reserved. Designed by 
-                <span className='text-danger'> FreeHTML5.co </span> 
+                <span style={{ color:'#f96900'}}> FreeHTML5.co </span> 
             </p>
         </Col>
         <Col md={4} className='d-flex justify-content-md-end cnt-icon-footer'>
-            <Socmed name='instagram'/>
-            <Socmed name='fb'/>
-            <Socmed name='twitter'/>
-            <Socmed name='telegram'/>
+            <Socmed name='instagram' iconColor='#f96900'/>
+            <Socmed name='tiktok' iconColor='#f96900'/>
+            
+            {/* <Socmed name='fb' iconColor='#f96900'/> */}
+            {/* <Socmed name='twitter' iconColor='#f96900'/> */}
+            {/* <Socmed name='telegram' iconColor='#f96900'/> */}
         </Col>
     </Row>
   )

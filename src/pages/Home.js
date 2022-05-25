@@ -9,10 +9,8 @@ export default function Home() {
     <>
       <HeroSection/>
       <Facility />
-      {/* <h1 className='text-center'>card facility icon here</h1> */}
       <Data />
       <Carousel />
-      <Footer />
     </>
   )
 }

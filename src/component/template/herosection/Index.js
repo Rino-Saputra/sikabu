@@ -7,7 +7,6 @@ import { hero1 } from "../../../export/image";
 export default function HeroSection() {
   return (
     <Container fluid className="mb-5">
-      <Header />
       <Container className="pt-4">
         <Row className="d-flex align-items-center justify-content-between">
           <Col md={5} className="mb-5">

@@ -13,7 +13,7 @@ export default function TextSection() {
         provide for your satisfaction and comfort, what are you waiting for,
         come and feel the fun
       </h6>
-      <ButtonSection />
+      <ButtonSection text='Order Now' />
     </>
   );
 }

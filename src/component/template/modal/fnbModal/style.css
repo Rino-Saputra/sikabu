@@ -1,0 +1,16 @@
+/* .modal-contents {
+    background-color:  rgba(93, 116, 126, 0.226) !important;
+} */
+
+/* .modal-backdrop, 
+.modal-backdrop.fade.in{
+opacity: 0.5 !important;
+filter: alpha(opacity=50) !important;
+background: #fff;
+} */
+
+@media(min-width: 768px){
+    .img-fnb{
+        height: 550px;
+    }
+}

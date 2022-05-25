@@ -9,7 +9,7 @@ export default function Data() {
     <Container>
         <Intro 
             head='Fact'
-            desc='See our fact during based on statistic'
+            desc='See our fact'
         />
         <Row className='mt-5'>
             <Col md={3}>

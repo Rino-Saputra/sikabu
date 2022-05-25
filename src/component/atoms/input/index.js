@@ -1,9 +1,16 @@
 import React from 'react'
+import './style.css'
 
-export default function InputText() {
+export default function InputText(props) {
   return (
     <div>
-        <input type="text" className="form-control" placeholder="Username" />
+        <input 
+          name={props.name}
+          type={props.type} 
+          className="form-control input-mod"
+          placeholder={props.placeholder} 
+          required
+          />
     </div>
   )
 }

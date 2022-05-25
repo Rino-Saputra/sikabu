@@ -14,12 +14,12 @@ export default function Subcribe() {
           desc='Dont miss our event and discount'
           color='text-light'
         />
-        <Row className='py-4 px-5 d-flex justify-content-center row'>
+        <Row className='py-4 px-5 d-flex justify-content-center align-items-center row'>
           <Col md={3} className='my-2'>
-            <InputText />
+            <InputText placeholder='email'/>
           </Col>
           <Col md={3} className='my-2'>
-            <ButtonText />
+            <ButtonText styles='subcribe' text='Order Now' />
           </Col>
         </Row>
     </div>

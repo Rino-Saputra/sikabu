@@ -1,0 +1,27 @@
+.food,.beverage{
+    letter-spacing: 2px;
+    margin: 0 1em;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+.food{
+    padding: 5px 2.9em;
+}
+.beverage{
+    padding: 5px 2em;
+}
+.active-btn{
+    color: white;
+    background-color: #f96900;
+}
+.deactive-btn{
+    color: #f35b03;
+    background-color: rgba(250, 153, 83, 0.151); 
+}
+.deactive-btn:hover{
+    /* background-color: hsla(25, 100%, 49%, 0.294);
+    color: #fa2b07; */
+    box-shadow: 0 0 4px  hsla(25, 100%, 49%, 0.795) inset;
+}

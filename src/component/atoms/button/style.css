@@ -7,14 +7,27 @@
     color: white;
     padding: 10px 1em;
     border-radius: 20px;
-    background-color: #f96900;
+    background-color: #0098ef;
     border-style: none;
     font-weight: 850;
-    box-shadow: 0 5px 10px 10px rgba(245, 172, 62, 0.233);
     transition: 0.6s ease;
 }
 
+.subcribe{
+    color: white;
+    padding: 10px 1.5em;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 4px solid white;
+    font-weight: 850;
+    transition: 0.25s ease;
+}
+
 .order:hover{
-    background-color: #fd9042;
-    box-shadow: 0 5px 10px 10px rgba(245, 172, 62, 0.233);
+    background-color: #55c0fd;
+}
+
+.subcribe:hover{
+    background-color: white;
+    color: #0098ef;
 }

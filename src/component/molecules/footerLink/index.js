@@ -6,7 +6,7 @@ import './style.css'
 export default function FooterLink() {
   return (
     <div className='mb-4'>
-      <TextFooterHead text='Link' />
+      <TextFooterHead text='LINK' />
       <ul className='footer-link'>
           <AnchorText text='Map' />
           <AnchorText text='Terms of services' />
