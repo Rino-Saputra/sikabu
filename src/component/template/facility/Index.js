@@ -8,7 +8,7 @@ export default function Facility() {
     <Container className='d-flex align-items-md-center flex-column' >
         <Intro 
             head="Fasilitas"
-            desc="Coba fasilitas kita dan rasakan kenyamanan dengan keluarga anda"
+            desc="Coba fasilitas kami dan rasakan kenyamanan dengan keluarga anda"
         />
 
         <Row className="pt-5 mt-5 d-flex">

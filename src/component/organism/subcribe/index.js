@@ -11,7 +11,7 @@ export default function Subcribe() {
     <div className='text-center py-4' style={{ background: '#0098EF', marginTop: '-50px'}}>
         <Intro 
           head='Berita'
-          desc='Jangan ketinggalan event dan diskon dari kita'
+          desc='Jangan ketinggalan event dan diskon dari kami'
           color='text-light'
         />
         <Row className='py-4 px-5 d-flex justify-content-center align-items-center row'>
