@@ -9,7 +9,7 @@ export default function Pricing() {
     <Container>
         <Intro 
             head='Harga Tiket'
-            desc='Cek harga sebelum memesan tiket'
+            desc='Cek harga sebelum anda memesan tiket'
         />
         <Row className='d-flex justify-content-center mb-5'>
           <Col md={4} className='d-flex justify-content-center'>
