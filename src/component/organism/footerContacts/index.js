@@ -8,7 +8,7 @@ export default function FooterContactsList() {
         <TextFooterHead text='HUBUNGI KAMI' />
         <ul style={{ listStyle: 'none', padding: 0}}>
 
-          <a href='tel:+621288901667' style={{textDecoration: 'none'}} >
+          <a href='tel:081288901667' style={{textDecoration: 'none'}} >
             <FooterContact 
               iconName='telephone' 
               text='+62 12 8890 1667' 
