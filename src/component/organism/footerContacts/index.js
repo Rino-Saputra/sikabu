@@ -22,7 +22,7 @@ export default function FooterContactsList() {
               iconColor='#f96900'
             />
           </a>
-          <a href="https://api.whatsapp.com/send?phone=628299833477&text=" style={{textDecoration: 'none'}} >
+          <a href="https:/wa.me/6288299833477" target='_blank' style={{textDecoration: 'none'}} >
             <FooterContact 
               iconName='whatapp' 
               text='+62 82 9983 3477' 
