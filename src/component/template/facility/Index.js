@@ -36,15 +36,15 @@ export default function Facility() {
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={canebo}
-                    title='Kanebo'
-                    desc='Nikmati kanebo ketika istirahat setelah berenang'
+                    title='Gazebo'
+                    desc='Nikmati gazebo ketika istirahat setelah berenang'
                 />
             </Col>
             <Col md={4} className='mb-4'>
                 <CardFacility 
                     image={cafe}
                     title='Cafe'
-                    desc='Pesan dan nikmati layanan dan menu dari cafe kami'
+                    desc='Pesan dan nikmati layanan dan menu dari Cafe kami'
                 />
             </Col>
             <Col md={4} className='mb-4'>

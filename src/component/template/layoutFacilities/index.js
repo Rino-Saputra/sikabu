@@ -12,7 +12,7 @@ export default function Layout(props) {
 		<Row className='my-5'>
 			<Col lg={5} className={props.title == 'Homestay' ? 'order-1' : 'order-2'}>
 				{ props.title === 'Homestay' && <Homestay /> }
-				{ props.title === 'Restoran' && <Restaurant /> } 
+				{ props.title === 'Cafe' && <Restaurant /> } 
 			</Col>
 			<Col lg={7} className={props.title == 'Homestay' ? 'order-2' : 'order-1'}>
 				<img src={props.image} alt="" className='img-fluid mb-4 image-facilities' />

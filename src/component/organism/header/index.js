@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Container, Navbar, Nav } from "react-bootstrap";
@@ -5,7 +6,13 @@ import { logo } from "../../../export/image";
 
 import "./style.css";
 
+import TempModal from "../../template/modal/tempModal/TempModal";
+
+
 export default function Header() {
+
+  const[show, setShow]=useState(false);
+
   return (
     <Navbar collapseOnSelect expand="md">
       <Container>
@@ -44,10 +51,16 @@ export default function Header() {
               </Nav.Link>
             </Link>
             
-            <button className="login mx-2 my-2 a5">Login</button>
+            <button className="login mx-2 my-2 a5" onClick={()=>setShow(!show)} >Login</button>
           </Nav>
         </Navbar.Collapse>
       </Container>
+
+      <TempModal 
+        handleClose={()=>setShow(!show)} 
+        show={show}
+      />
+
     </Navbar>
   );
 }

@@ -8,7 +8,7 @@ export default function FooterContact( { iconName, text, iconColor } ) {
       <div className='d-flex align-items-center my-3'>
         <SvgIcon name={iconName} iconColor={iconColor}/>
         <div className='ms-2'>
-          <AnchorText text={text} />
+          <AnchorText text={text}/>
         </div>
       </div>
     </li>

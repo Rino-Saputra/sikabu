@@ -12,8 +12,12 @@ export default function Copyright() {
             </p>
         </Col>
         <Col md={4} className='d-flex justify-content-md-end cnt-icon-footer'>
-            <Socmed name='instagram' iconColor='#f96900'/>
-            <Socmed name='tiktok' iconColor='#f96900'/>
+            <a href="https://instagram.com/tabekmandi_sikabu?igshid=YmMyMTA2M2Y=" target='_blank'>
+              <Socmed name='instagram' iconColor='#f96900'/>
+            </a>
+            <a href="https://www.tiktok.com/search?q=Tabekmandi_sikabu&t=1653651938909" target='_blank'>
+              <Socmed name='tiktok' iconColor='#f96900'/>
+            </a>
             
             {/* <Socmed name='fb' iconColor='#f96900'/> */}
             {/* <Socmed name='twitter' iconColor='#f96900'/> */}

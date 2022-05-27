@@ -7,9 +7,29 @@ export default function FooterContactsList() {
     <div className='mb-2'>
         <TextFooterHead text='HUBUNGI KAMI' />
         <ul style={{ listStyle: 'none', padding: 0}}>
-            <FooterContact iconName='telephone' text='+62 12 8890 1667' iconColor='#f96900' />
-            <FooterContact iconName='email' text='sikabutabekmandi@gmail.com' iconColor='#f96900'/>
-            <FooterContact iconName='whatapp' text='+62 82 9983 3477' iconColor='#f96900'/>
+
+          <a href='tel:+621288901667' style={{textDecoration: 'none'}} >
+            <FooterContact 
+              iconName='telephone' 
+              text='+62 12 8890 1667' 
+              iconColor='#f96900' 
+            />
+          </a>
+          <a href="mailto:sikabutabekmandi@gmail.com?subject&body" style={{textDecoration: 'none'}} >
+            <FooterContact 
+              iconName='email' 
+              text='sikabutabekmandi@gmail.com' 
+              iconColor='#f96900'
+            />
+          </a>
+          <a href="https:/wa.me/623110714321" style={{textDecoration: 'none'}} >
+            <FooterContact 
+              iconName='whatapp' 
+              text='+62 82 9983 3477' 
+              iconColor='#f96900'
+            />
+          </a>
+
         </ul>
     </div>
   )
