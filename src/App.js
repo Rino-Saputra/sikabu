@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import { Header, Home, Contact, Pricing, Facilities, Footer } from './export/pages'

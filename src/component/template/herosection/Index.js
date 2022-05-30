@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <Container fluid className="mb-5">
       <Container className="pt-4">
-        <Row className="d-flex align-items-center justify-content-between">
+        <Row className="d-flex align-items-center justify-content-between" >
           <Col md={5} className="mb-5">
             <TextSection />
           </Col>
