@@ -61,3 +61,8 @@
 .li{
   list-style: none;
 }
+
+.user-icon{
+  cursor: pointer;
+  margin-left: 10px;
+}

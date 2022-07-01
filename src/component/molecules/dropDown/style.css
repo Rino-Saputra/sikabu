@@ -1,0 +1,11 @@
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    border: 0px;
+    outline: 0px;
+}
+
+::-moz-selection{
+    background-color: transparent;
+}

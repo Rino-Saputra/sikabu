@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Col, Row } from "react-bootstrap";
 import "./style.css";
 import ButtonSection from "../../molecules/buttonSection";
@@ -17,7 +18,9 @@ export default function TextSection() {
         berikan kepuasan dan kenyamanan anda, tunggu apa lagi,
         datang dan rasakan keseruannya
       </h6>
-      <ButtonSection text='Pesan' />
+      <Link to='/pricing'>
+        <ButtonSection text='Pesan' />
+      </Link>
       {/* Order Now */}
     </>
   );

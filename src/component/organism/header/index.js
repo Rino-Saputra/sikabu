@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, Dropdown } from "react-bootstrap";
 import { logo } from "../../../export/image";
 
 import "./style.css";
-
-import TempModal from "../../template/modal/tempModal/TempModal";
+import LoginModal from "../../template/modal/loginModal/LoginModal";
+import {UserDropDown, LangDropDown } from "../../molecules/dropDown";
 
 
 export default function Header() {
@@ -30,6 +30,10 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto d-flex align-items-center fw-bold text-white">
 
+            <Nav.Link className="a3 mx-2" href="#route-0">
+              <LangDropDown />
+            </Nav.Link>
+
             <Link to='/facilities' style={{ textDecoration: 'none' }}>
               <Nav.Link className="a3 mx-2" href="#route-1">
                 Fasilitas 
@@ -52,14 +56,22 @@ export default function Header() {
             </Link>
             
             <button className="login mx-2 my-2 a5" onClick={()=>setShow(!show)} >Login</button>
+            {/* <div className='user-icon'>
+                <UserDropDown />
+            </div> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
 
+      <LoginModal 
+        handleClose={()=>setShow(!show)}
+        show={show}
+      />
+    {/* 
       <TempModal 
         handleClose={()=>setShow(!show)} 
         show={show}
-      />
+      /> */}
 
     </Navbar>
   );

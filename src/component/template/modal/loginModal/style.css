@@ -1,0 +1,45 @@
+.email-login,.pw-login{
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-left: 1em;
+    transition: 0.6s ease;
+    width: 100%;
+}
+
+.email-login:hover,.pw-login:hover{
+    border-bottom: 1px solid black;
+}
+
+.forget{
+    margin-top: -10px;
+    font-size: 12px;
+    color: #f96900;
+    text-align: end;
+    cursor: pointer;
+}
+
+.btn-login{
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: 10px 1em;
+    font-weight: 850;
+    transition: 0.6s ease;
+}
+
+
+.sign-up{
+    color: rgb(122, 120, 120);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.bord-wrp{
+    height: 2px;
+    width: 50%;
+    background-color: #fc8836;
+    transition: 0.6s ease;
+}

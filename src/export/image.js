@@ -26,6 +26,7 @@ import carousel11 from '../assets/images/home/carousel/carousel11.jpg';
 import logo from '../assets/images/home/jumbotron/logo.png';
 import jumbotron from '../assets/images/home/jumbotron/jumbotron.jpg';
 import hero1 from '../assets/images/home/header/hero2.png';
+import loginImg from '../assets/images/home/header/hero1.svg'
 // import elipse from '../assets/images/home/header/elipse.png';
 
 import foodImg from '../assets/images/home/restaurant/food.jpg';
@@ -39,7 +40,7 @@ export {
   carousel1,carousel2,carousel3,carousel4,carousel5,carousel6,carousel7,carousel8,carousel9,
   carousel10,carousel11,
 
-  logo, jumbotron, hero1,
+  logo, jumbotron, hero1,loginImg,
   
   foodImg,snackImg,beverageImg,
 };
