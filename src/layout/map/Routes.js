@@ -17,8 +17,9 @@ export default function Routing({cordinat}) {
     //swasembada=-6.117940067952994, 106.8894023734158
     const routingControl = L.Routing.control({
       waypoints: [L.latLng(cordinat.latitude,cordinat.longitude), L.latLng(-0.3350975699634586, 100.34190295250696)],
-      routeWhileDragging: true
+      
     }).addTo(map);
+    console.log(map)
 
     return () => map.removeControl(routingControl);
   }, [map]);
